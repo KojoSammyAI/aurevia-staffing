@@ -5,7 +5,7 @@ export default function Hero() {
   return (
      <section className="relative w-full">
       {/* --- HERO BACKGROUND & CONTENT --- */}
-      <div className="relative w-full h-[480px] flex items-center justify-center overflow-hidden">
+      <div className="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="/home-hero.jpg"
