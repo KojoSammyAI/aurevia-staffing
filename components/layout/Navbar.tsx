@@ -29,15 +29,17 @@ export default function Navbar() {
           </Link>
 
           {/* DESKTOP LINKS */}
-          <div className="hidden lg:flex items-center gap-6 text-xs font-semibold text-slate-300 uppercase tracking-wider">
-            <Link href="/" className="hover:text-[#C8A24C] transition">Home</Link>
-            <Link href="/services" className="hover:text-[#C8A24C] transition">Staffing Solutions</Link>
-            <Link href="/jobs" className="hover:text-[#C8A24C] transition">Jobs</Link>
-            <Link href="/employers" className="hover:text-[#C8A24C] transition">Employers</Link>
-            <Link href="/candidates" className="hover:text-[#C8A24C] transition">Candidates</Link>
-            <Link href="/career-services" className="hover:text-[#C8A24C] transition">Career Services</Link>
-            <Link href="/blog" className="hover:text-[#C8A24C] transition">Blog</Link>
-          </div>
+<div className="hidden lg:flex items-center gap-6 text-xs font-semibold text-slate-300 uppercase tracking-wider">
+  <Link href="/" className="hover:text-[#C8A24C] transition">Home</Link>
+  <Link href="/services" className="hover:text-[#C8A24C] transition">Staffing Solutions</Link>
+  <Link href="/jobs" className="hover:text-[#C8A24C] transition">Jobs</Link>
+  <Link href="/employers" className="hover:text-[#C8A24C] transition">Employers</Link>
+  <Link href="/candidates" className="hover:text-[#C8A24C] transition">Candidates</Link>
+  <Link href="/career-services" className="hover:text-[#C8A24C] transition">Career Services</Link>
+  <Link href="/blog" className="hover:text-[#C8A24C] transition">Blog</Link>
+  <Link href="/about" className="hover:text-[#C8A24C] transition">About Us</Link>
+  <Link href="/contact" className="hover:text-[#C8A24C] transition">Contact</Link>
+</div>
 
           {/* RIGHT ACTION BUTTONS */}
           <div className="flex items-center gap-3">
@@ -92,6 +94,12 @@ export default function Navbar() {
           </Link>
           <Link href="/blog" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5">
             Blog
+          </Link>
+          <Link href="/about" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5">
+            About Us
+          </Link>
+          <Link href="/contact" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5">
+            Contact
           </Link>
         </div>
       )}
