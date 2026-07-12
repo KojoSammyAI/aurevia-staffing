@@ -25,7 +25,6 @@ export default function Navbar() {
                 e.currentTarget.style.display = 'none';
               }}
             />
-            <span className="text-white font-bold tracking-wider text-sm md:hidden ml-2">AUREVIA</span>
           </Link>
 
           {/* DESKTOP LINKS */}
@@ -33,8 +32,8 @@ export default function Navbar() {
   <Link href="/" className="hover:text-[#C8A24C] transition">Home</Link>
   <Link href="/services" className="hover:text-[#C8A24C] transition">Staffing Solutions</Link>
   <Link href="/jobs" className="hover:text-[#C8A24C] transition">Jobs</Link>
-  <Link href="/employers" className="hover:text-[#C8A24C] transition">Employers</Link>
-  <Link href="/candidates" className="hover:text-[#C8A24C] transition">Candidates</Link>
+  <Link href="/employer" className="hover:text-[#C8A24C] transition">Employer</Link>
+  <Link href="/candidate" className="hover:text-[#C8A24C] transition">Candidate</Link>
   <Link href="/career-services" className="hover:text-[#C8A24C] transition">Career Services</Link>
   <Link href="/blog" className="hover:text-[#C8A24C] transition">Blog</Link>
   <Link href="/about" className="hover:text-[#C8A24C] transition">About Us</Link>
@@ -45,7 +44,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <Link 
               href="/apply" 
-              className="bg-[#C8A24C] hover:bg-white text-[#0B1F3A] text-xs font-bold px-4 py-2.5 rounded-md transition tracking-wider uppercase shadow-sm"
+              className="bg-[#C8A24C] hover:bg-white text-[#0B1F3A] text-xs font-bold px-6 py-2.5 rounded-md transition tracking-wider uppercase shadow-sm"
             >
               Apply Now
             </Link>
@@ -83,10 +82,10 @@ export default function Navbar() {
           <Link href="/jobs" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5 border-b border-white/5">
             Jobs
           </Link>
-          <Link href="/employers" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5 border-b border-white/5">
+          <Link href="/employer" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5 border-b border-white/5">
             Employers
           </Link>
-          <Link href="/candidates" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5 border-b border-white/5">
+          <Link href="/candidate" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5 border-b border-white/5">
             Candidates
           </Link>
           <Link href="/career-services" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-200 hover:text-[#C8A24C] py-2.5 border-b border-white/5">

@@ -1,7 +1,7 @@
 // src/app/candidates/page.tsx
 import Link from "next/link";
 
-export default function CandidatesPage() {
+export default function CandidatePage() {
   return (
     <main className="pt-32 pb-20 bg-white text-[#0B1F3A]">
       <div className="max-w-4xl mx-auto px-6">

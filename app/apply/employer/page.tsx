@@ -1,5 +1,5 @@
 // src/app/employers/page.tsx
-export default function EmployersPage() {
+export default function EmployerPage() {
   return (
     <main className="pt-32 pb-20 bg-white text-[#0B1F3A]">
       <div className="max-w-4xl mx-auto px-6">
